@@ -28,7 +28,10 @@ console.log(eta);
  } else if (eta > 65 ){
      var sconto = prezzo * 40 / 100
 
- }else{
-     var prezzo = distanza * 0.21
+ } else {
+    var sconto = prezzo 
+     
  }
+
+
  console.log(sconto);
