@@ -18,3 +18,14 @@ console.log(distanza);
 var eta =  prompt('Età del passeggero');
 eta = parseInt(eta);
 console.log(eta);
+
+
+ var prezzo = distanza * 0.21
+
+ if(eta < 18) {
+     var sconto = prezzo * 20 / 100
+
+ } if else (eta > 65 ){
+     var sconto = prezzo * 40 / 100
+
+ }
