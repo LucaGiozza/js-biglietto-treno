@@ -32,8 +32,9 @@ console.log(eta);
     var sconto = prezzo 
      
  }
- document.getElementById('prezzo').innerHTML=sconto
-;
+ document.getElementById('prezzo').innerHTML=sconto;
+
+ Math.round(sconto * 100) / 100 ;
 
 
  console.log(sconto);
