@@ -20,14 +20,14 @@ eta = parseInt(eta);
 console.log(eta);
 
 
- var prezzo = distanza * 0.21
- var sconto = prezzo 
+ var prezzo = distanza * 0.21;
+ var sconto = prezzo ;
 
  if (eta < 18) {
-     sconto = prezzo * 80 / 100
+     sconto = prezzo * 80 / 100;
 
  } else if (eta > 65 ){
-     sconto = prezzo * 60 / 100
+     sconto = prezzo * 60 / 100;
 
  } 
  
