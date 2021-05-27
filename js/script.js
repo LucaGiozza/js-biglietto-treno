@@ -32,6 +32,8 @@ console.log(eta);
     var sconto = prezzo 
      
  }
+ document.getElementById('prezzo').innerHTML=sconto
+;
 
 
  console.log(sconto);
