@@ -31,14 +31,12 @@ console.log(eta);
 
  } 
  
-
-  var x = sconto ;
-  x.toFixed(2);
-  
+ 
+ sconto = sconto.toFixed( 2 ); 
 
  document.getElementById('prezzo').innerHTML=sconto;
 
+//  altrimenti potevo mettere :
+//  document.getElementById('prezzo').innerHTML=sconto.toFixed(2);
 
-
-
- console.log(sconto);
+console.log(sconto);
